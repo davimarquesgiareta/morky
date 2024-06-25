@@ -9,6 +9,7 @@ const __dirname = dirname(__filename);
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/morky/', // Substitua 'nome-do-repositorio' pelo nome do seu repositório
   build: {
     rollupOptions: {
       input: {
