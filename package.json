@@ -11,7 +11,11 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@primevue/themes": "^4.0.0-rc.2",
     "express": "^4.19.2",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.0-rc.2",
     "serve-static": "^1.15.0",
     "url": "^0.11.3",
     "vue": "^3.4.29",
