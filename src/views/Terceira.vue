@@ -3,13 +3,13 @@ import router from "@/router";
 
 function proximo() {
   router.push({
-    name: "segunda",
+    name: "quarta",
   });
 }
 
 function anterior() {
   router.push({
-    name: "home",
+    name: "segunda",
   });
 }
 </script>
@@ -36,10 +36,21 @@ function anterior() {
       </button>
     </div>
     <div class="container-conteudo">
-      <div style="color:#FFD700"><h1>30/06/1998</h1></div>
-      <div><h4>O dia que meu morky mais fofo do mundo nasceu 🥰</h4></div>
-      <div style="margin-top:1rem;" ><Image src="https://i.postimg.cc/k5LxrKgK/2.jpg"  width="250" height="" preview/></div>
-      <div>(clique na imagem pra dar um zoom nhownn)</div>
+      <div style="color: #ffd700"><h1>Vamos de Review...</h1></div>
+      <div style="margin-top: 1rem"><h2>Melissa Evelyn de Freitas</h2></div>
+      <div>
+        <img class="imagem" src="https://i.postimg.cc/P526JYZ0/Whats-App-Image-2024-06-25-at-20-20-47-1.jpg" alt="">
+      </div>
+      <div class="ficha">
+        <li>26 anos</li>
+        <li>Branca</li>
+        <li>Gostosa</li>
+        <li>1.67 m</li>
+        <li>68 kg</li>
+        <li>Tipo sanguíneo A+</li>
+        <li>Canceriana</li>
+        <li>Empoderada</li>
+      </div>
     </div>
   </div>
 </template>
@@ -62,4 +73,17 @@ function anterior() {
   text-align: center;
 }
 
+.ficha {
+  padding: 1rem;
+  margin-top: 3rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.imagem{
+    margin-top: 1rem;
+    height: 400px;
+    border-radius: 20px;
+}
 </style>

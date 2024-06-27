@@ -15,7 +15,7 @@ function proximaPagina(){
         <h1>Oi <span style="color:red;">Morzy</span> 🥰</h1>
       </div>
       <div style="margin-top:2rem;">
-        <p>Este app em <span style="color:#42B883"><b>Vue.js </b></span>é um presentinho procê hihi</p>
+        <p>Este app em <span style="color:#42B883"><b>Vue.js </b></span>é um presentinho procê hihi 🎂</p>
       </div>
       <div style="margin-top:3rem;">
         <Button style="height:60px; width: 200px" label="Ver presente 😙" severity="secondary" @click="proximaPagina"/>
