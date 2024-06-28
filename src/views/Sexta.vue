@@ -3,13 +3,13 @@ import router from "@/router";
 
 function proximo() {
   router.push({
-    name: "quarta",
+    name: "setima",
   });
 }
 
 function anterior() {
   router.push({
-    name: "segunda",
+    name: "quinta",
   });
 }
 </script>
@@ -36,27 +36,7 @@ function anterior() {
       </button>
     </div>
     <div class="container-conteudo">
-      <div style="color: #ffd700"><h1>Vamos de Review...</h1></div>
-      <div style="margin-top: 1rem"><h2>Melissa Evelyn de Freitas</h2></div>
-      <div>
-        <img
-          class="imagem"
-          src="https://i.postimg.cc/P526JYZ0/Whats-App-Image-2024-06-25-at-20-20-47-1.jpg"
-          alt=""
-        />
-      </div>
-      <div class="container-ficha">
-        <div class="ficha">
-          <li>26 anos</li>
-          <li>Branca</li>
-          <li>Gostosa</li>
-          <li>1.67 m</li>
-          <li>68 kg</li>
-          <li>Tipo sanguíneo A+</li>
-          <li>Canceriana</li>
-          <li>Empoderada</li>
-        </div>
-      </div>
+      quarta
     </div>
   </div>
 </template>
@@ -79,23 +59,4 @@ function anterior() {
   text-align: center;
 }
 
-.ficha {
-  padding: 1rem;
-  margin-top: 2rem;
-  border: 1px solid white;
-  border-radius: 10px;
-  width: 100%;
-  width: 300px;
-}
-
-.imagem {
-  margin-top: 1rem;
-  height: 400px;
-  border-radius: 20px;
-}
-
-.container-ficha {
-   display: flex;
-   justify-content: center;
-}
 </style>

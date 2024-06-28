@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import Primeira from '@/views/Primeira.vue'
 import Segunda from '@/views/Segunda.vue'
 import Terceira from '@/views/Terceira.vue'
+import Quarta from '@/views/Quarta.vue'
+import Quinta from '@/views/Quinta.vue'
+import Sexta from '@/views/Sexta.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +29,21 @@ const router = createRouter({
       path: '/3',
       name: 'terceira',
       component: Terceira
+    },
+    {
+      path: '/4',
+      name: 'quarta',
+      component: Quarta
+    },
+    {
+      path: '/5',
+      name: 'quinta',
+      component: Quinta
+    },
+    {
+      path: '/6',
+      name: 'sexta',
+      component: Sexta
     },
     {
       path: '/about',
