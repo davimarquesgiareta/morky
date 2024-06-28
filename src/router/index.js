@@ -6,6 +6,9 @@ import Terceira from '@/views/Terceira.vue'
 import Quarta from '@/views/Quarta.vue'
 import Quinta from '@/views/Quinta.vue'
 import Sexta from '@/views/Sexta.vue'
+import Setima from '@/views/Setima.vue'
+import Sim from '@/views/Sim.vue'
+import Nao from '@/views/Nao.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +47,21 @@ const router = createRouter({
       path: '/6',
       name: 'sexta',
       component: Sexta
+    },
+    {
+      path: '/7',
+      name: 'setima',
+      component: Setima
+    },
+    {
+      path: '/nao',
+      name: 'nao',
+      component: Nao
+    },
+    {
+      path: '/sim',
+      name: 'sim',
+      component: Sim
     },
     {
       path: '/about',
